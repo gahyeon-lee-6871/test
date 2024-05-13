@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns:th"http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>hello</title>
+</head>
+<body>
+	<h1>自己紹介</h1>
+	
+	<table border="1">
+		<TR>
+			<th>名前：</th>
+			<th th:text="${name}"></th>
+		</TR>
+		
+		<TR>
+			<th>年齢：</th>
+			<th th:text="${age}"></th>
+		</TR>
+		
+		<TR>
+			<th>メモ：</th>
+			<th></th>
+		</TR>
+		
+		<TR>
+			<th>趣味：</th>
+			<th th:text="${hobby}"></th>
+		</TR>
+		
+		
+	</table>
+
+</body>
+</html>
